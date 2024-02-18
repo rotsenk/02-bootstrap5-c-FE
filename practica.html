@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<style>
+    /* Esta media es para pantallas mayores a 992 px, para aplicar esos diseños */
+    @media (min-width: 992px){
+        .alto-100{
+            height: 100vh;
+        }
+    }
+</style>
+
+<body>
+    <!-- se puede agregar vh-100 para dejar al medio todo, pero resulta que en pantallas pequeñas, todo sube y no se visualizan los demás elementos, por lo tanto hay que hacer modificaciones con @media -->
+    <div class="container d-flex align-items-center justify-content-center alto-100">
+        <div class="row">
+            <!-- Columna -->
+            <div class="col-12 col-lg-9 bg-primary">
+                <div class="row">
+                    <div class="col-12 col-lg-8 bg-primary">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, recusandae possimus. Maxime recusandae eos enim aspernatur assumenda, laboriosam aut minima magnam labore repellendus ab atque alias dicta. Praesentium, iure quisquam.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-4 bg-success">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, recusandae possimus. Maxime recusandae eos enim aspernatur assumenda, laboriosam aut minima magnam labore repellendus ab atque alias dicta. Praesentium, iure quisquam.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-4 bg-danger">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, recusandae possimus. Maxime recusandae eos enim aspernatur assumenda, laboriosam aut minima magnam labore repellendus ab atque alias dicta. Praesentium, iure quisquam.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-8 bg-warning">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, recusandae possimus. Maxime recusandae eos enim aspernatur assumenda, laboriosam aut minima magnam labore repellendus ab atque alias dicta. Praesentium, iure quisquam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna -->
+            <div class="col-12 col-lg-3 bg-secondary">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat pariatur saepe quod! Rem sint
+                    pariatur quam ea a ipsam explicabo, ut dolores quas. Ad debitis dolorem exercitationem quis odit
+                    architecto?</p>
+            </div>
+        </div>
+</body>
+
+</html>
