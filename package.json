@@ -1,0 +1,15 @@
+{
+  "name": "02-bootstrap5-c-fe",
+  "version": "1.0.0",
+  "description": "- En este doc trabajaremos el contenido de bootstrap5",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content personalizar.html -o sass/reducido.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
